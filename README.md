@@ -1,16 +1,70 @@
-# React + Vite
+# React useState Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my React Chapter 9 practice focused on the **useState Hook**.
 
-Currently, two official plugins are available:
+## 📚 What I Learned
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Introduction to the `useState` Hook
+- Managing state in React components
+- Updating state using setter functions
+- Handling button click events
+- Creating interactive components
+- Understanding how React re-renders components when state changes
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Vite
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+react-useState-practice/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+└── README.md
+```
+
+## 🚀 Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/arpitkumar-coder/react-useState-practice.git
+```
+
+2. Open the project folder:
+
+```bash
+cd react-useState-practice
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🎯 Learning Goal
+
+My goal is to strengthen my React fundamentals through hands-on practice and gradually build interactive React applications.
+
+## 👨‍💻 Author
+
+**Arpit Kumar**
+
+GitHub: [@arpitkumar-coder](https://github.com/arpitkumar-coder)
